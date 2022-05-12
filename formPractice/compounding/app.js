@@ -9,11 +9,11 @@ const Form = () => {
 
     const {principal, rate, year, frequency} = parseUserInputs(formData);
     const amount = calculateCompoundInterest(principal, rate, year, frequency);
-    result.innerText = getResultText(principal, rate, year, frequency);
+    result.innerText = getResultText(principal, rate, year, frequency, amount);
   })
 }
 
-function getResultText(principal, rate, year, frequency){
+function getResultText(principal, rate, year, frequency, amount){
   principal = parseMoneyText(principal)
   frequency = parseFrequencyText(frequency)
   rate = parseRateText(rate)
@@ -52,7 +52,7 @@ function calculateCompoundInterest(principal, rate, year, frequency){
 const app = () => {
   Form();
 }
-export default app()
+export default app();
 
 function formDataToObject(formData){
   console.log(formData)

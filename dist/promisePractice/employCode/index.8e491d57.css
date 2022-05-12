@@ -1,0 +1,35 @@
+.container {
+  height: 100vh;
+  max-width: 600px;
+  justify-content: space-around;
+  margin: auto;
+  display: flex;
+}
+
+.item {
+  max-width: 500px;
+}
+
+.label {
+  width: 8rem;
+  display: block;
+}
+
+.select-box {
+  width: 8rem;
+}
+
+.employee-email {
+  width: 10rem;
+}
+
+ol {
+  float: left;
+  padding: 0 1rem 0 0;
+}
+
+li {
+  list-style: none;
+}
+
+/*# sourceMappingURL=index.8e491d57.css.map */
