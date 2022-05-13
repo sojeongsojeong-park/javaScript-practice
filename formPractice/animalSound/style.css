@@ -9,3 +9,24 @@ button{
   cursor: pointer;
   border-radius: 10px;
 }
+#app{
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  top: 100px;
+  left: calc(50vw - 600px);
+}
+.section{
+  width: 380px;
+}
+p{
+  font-size: 70px;
+  text-align: center;
+}
+input{
+  width: 200px;
+  position: relative;
+  left: 90px;
+  text-align: center;
+}
