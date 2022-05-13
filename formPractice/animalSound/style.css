@@ -1,0 +1,11 @@
+button{
+  position: relative;
+  top: calc(50vh - 60px);
+  left:calc(50vw - 100px);
+  background-color: lightsalmon;
+  border: none;
+  width: 200px;
+  height: 80px;
+  cursor: pointer;
+  border-radius: 10px;
+}
